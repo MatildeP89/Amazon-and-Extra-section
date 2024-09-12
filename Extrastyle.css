@@ -1,0 +1,106 @@
+body {height: 400px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+       
+}
+
+
+div.containers {
+    display: inline-block;
+    height: 500px;
+    width: 350px;
+    margin: 20px;
+    background-color: white;
+    position: relative;
+
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    margin: 0;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+a {position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: rgb(87, 108, 110);
+
+}
+
+img {width: 120px;
+    height: 120px;
+    display: inline-block;
+}
+
+img.first {position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+
+img.second{position: absolute;
+    top: 80px;
+    left: 200px;}
+
+img.third {position: absolute;
+bottom: 90px;
+left: 30px;
+
+}
+
+img.fourth {position: absolute;
+bottom: 90px;
+right: 30px;}
+
+
+
+h4 {display: inline-block;}
+
+
+h4.firstimg { position: absolute;
+    top: 185px;
+    left: 30px;
+    font-weight: 550;
+     
+}
+
+h4.secondimg {position: absolute;
+top: 185px;
+left: 200px;
+}
+
+h4.thirdimg {position: absolute;
+top: 395px;
+left: 30px;
+}
+
+h4.fourthimg {position: absolute;
+    top: 395px;
+    left: 200px;
+}
+
+div.layer1 {
+   position: relative; 
+}
+
+img.layer2 {position: absolute;
+top: 170px;
+left: 120px;
+width: 50px;
+height: 50px;}
+
+
+
+
+#layer2bottom {position: absolute;
+    top: 380px;
+    left: 280px;
+    width: 50px;
+    height: 50px;
+
+}
+
